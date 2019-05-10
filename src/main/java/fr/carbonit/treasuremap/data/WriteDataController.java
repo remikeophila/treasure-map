@@ -8,6 +8,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
+/**
+ * Write the output file
+ */
 public class WriteDataController {
     private final Map map;
     private final String outputFilePath;

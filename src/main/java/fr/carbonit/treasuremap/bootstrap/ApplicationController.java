@@ -7,6 +7,12 @@ import fr.carbonit.treasuremap.map.MapController;
 
 import java.io.IOException;
 
+/**
+ * Run the application by:
+ *  - Parsing the input file
+ *  - Run the simulation
+ *  - Write the output file
+ */
 public class ApplicationController {
 
     public static void run(String[] args) throws IOException {

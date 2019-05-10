@@ -15,7 +15,6 @@ import java.util.stream.Stream;
  * Control the data flow:
  *  - Read the input file
  *  - Retrieve results
- *  - Write the output file
  */
 public class ReadDataController {
 

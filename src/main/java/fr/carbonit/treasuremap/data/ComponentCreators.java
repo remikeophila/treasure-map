@@ -19,6 +19,10 @@ import fr.carbonit.treasuremap.map.component.Treasure;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * Helper class containing methods for Map Objects creation
+ */
 public class ComponentCreators {
     public static Component createTreasure(FileData fileData) {
         int x = Integer.parseInt(fileData.getParameters().get(TreasureValidator.X));

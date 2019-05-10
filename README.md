@@ -1,4 +1,4 @@
-#Treasure Map:
+# Treasure Map:
 
 Treasure Map is a simulation game.
 
