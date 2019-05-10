@@ -18,7 +18,7 @@ import java.util.stream.Stream;
  */
 public class ReadDataController {
 
-    public static Map execute(String inputFilePath) throws IOException {
+    public static Map execute(String inputFilePath) {
         List<FileData> data = parseInputFile(inputFilePath);
         return DataMapper.map(data);
     }

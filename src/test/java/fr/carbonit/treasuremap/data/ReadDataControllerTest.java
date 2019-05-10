@@ -10,12 +10,12 @@ public class ReadDataControllerTest {
     private final String incorrectFile1 = this.getClass().getClassLoader().getResource("incorrect1.txt").getPath();
 
     @Test
-    public void correctFile() throws IOException {
+    public void correctFile() {
         ReadDataController.execute(correctFile1);
     }
 
     @Test(expected = MapFileException.class)
-    public void incorrectFile() throws IOException {
+    public void incorrectFile() {
         ReadDataController.execute(incorrectFile1);
     }
 }

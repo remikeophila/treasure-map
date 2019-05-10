@@ -24,8 +24,6 @@ public class WriteDataControllerTest {
     @Rule
     public TemporaryFolder temporaryFolder= new TemporaryFolder();
 
-    private WriteDataController writeDataController;
-
     private Map getDefaultMap() {
         Component treasure = new Treasure(1, 2, 2);
         Adventurer adventurer = new Adventurer(1,1, AdventurerOrientation.EAST, "Harry");
